@@ -1,0 +1,124 @@
+body{
+    text-align:center ;
+    font-style: oblique;
+    font-size: x-large;
+    font-weight: 700;
+    background-color: cornflowerblue;
+    background-attachment: scroll;
+    background-size: cover;
+}
+h1{
+    color: aqua;
+    background-color: black;
+    background-repeat: initial;
+    border-radius: 50px;
+    border: rgb(191, 195, 191);
+}
+.mm{
+    font-size: x-large;
+    font-weight: bold;
+    font-display: fallback;
+    font-style: italic;
+    text-align: center;
+    color: rgb(46, 252, 10);
+    background-color: blue;
+    padding: 30px;
+    margin: 20px;
+    letter-spacing: 2px;
+    border-bottom: 7px solid black;
+    
+    
+
+}
+h4{
+    background-color: rgb(27, 170, 41);
+    font-size:70px;
+    text-transform: capitalize;
+    text-decoration-color: blue;
+}
+h3{
+    background-color: rgb(159, 190, 129);
+    font-size: 70px;
+    border-radius: 40px;
+    border-bottom: 10px solid red;
+}
+h2{
+    font-style: normal;
+    font-size: 70px;
+    background-color: rgb(241, 243, 239);
+    border-radius: 50px;
+    text-decoration: double;
+    border-bottom: 10px solid red;
+    
+}
+table{
+    text-align: center;
+    font-style: oblique;
+    background-color: cornsilk;
+    border: 2000;
+    border-color: rgb(56, 6, 132);
+}
+th{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(157, 10, 190);
+}
+p{
+    color: darkblue;
+    background-color: burlywood;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 40px;
+    border-radius: 50px;
+    font-weight: 1000;
+}
+ul{
+    color: rgb(16, 227, 23);
+    background-color: black;
+}
+ol{
+    color: aliceblue;
+    background-color: black;
+}
+@media (max-width:600px) {
+    body{
+     background-attachment: scroll;
+     background-image: url(img.JPG.jpg);
+    }
+    h1{
+        font-size: 24px;
+        border-radius: 15px;
+    }
+    .mm{
+        font-size: 17px;
+        padding: 12px;
+        margin: 10px;
+        letter-spacing: 0;
+    }
+    h2{
+        font-size: 22px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 19px;
+    }
+    table{
+        font-size: 15px;
+    }
+    th{
+        font-size: 20px;
+    }
+    td{
+        font-size: 16px;
+    }
+    p{
+        font-size: 18px;
+        border-radius: 16px;
+    }
+    ul,ol{
+        font-size: 18px;
+    }
+}
